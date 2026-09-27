@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title description">
+  <title id="title">Engineering capability matrix</title>
+  <desc id="description">Four connected capability cards for software systems, AI and data science, data platforms, and performance engineering.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081522"/><stop offset="1" stop-color="#111c31"/></linearGradient>
+    <filter id="smallGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="390" rx="18" fill="url(#back)"/>
+  <text x="48" y="54" fill="#a6e0f5" font-family="Inter, Geist, Arial, sans-serif" font-size="14" letter-spacing="2.8">CAPABILITY MATRIX</text>
+  <text x="48" y="80" fill="#7d9cad" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">ONE ENGINEER / FOUR COUPLED SYSTEMS</text>
+  <g fill="none" stroke="#6bc5e8" stroke-opacity=".28" stroke-width="1.3" stroke-dasharray="5 8"><path d="M286 199H334M566 199H634M866 199H914"><animate attributeName="stroke-dashoffset" from="0" to="-52" dur="5s" repeatCount="indefinite"/></path></g>
+  <g stroke="#77caea" stroke-opacity=".36" fill="#0d2133">
+    <rect x="48" y="117" width="238" height="170" rx="13"/><rect x="334" y="117" width="232" height="170" rx="13"/><rect x="634" y="117" width="232" height="170" rx="13"/><rect x="914" y="117" width="238" height="170" rx="13"/>
+  </g>
+  <g font-family="Inter, Geist, Arial, sans-serif">
+    <g transform="translate(70 145)"><circle r="9" fill="#8edcff" filter="url(#smallGlow)"/><text x="20" y="5" fill="#a5dff6" font-size="12" letter-spacing="1.4">BUILD</text><text y="49" fill="#eef8fc" font-size="21">Software systems</text><text y="78" fill="#87a3b2" font-size="14">frontend · backend · APIs</text><text y="105" fill="#87a3b2" font-size="14">architecture · delivery</text></g>
+    <g transform="translate(356 145)"><circle r="9" fill="#8edcff" filter="url(#smallGlow)"/><text x="20" y="5" fill="#a5dff6" font-size="12" letter-spacing="1.4">LEARN</text><text y="49" fill="#eef8fc" font-size="21">AI + data science</text><text y="78" fill="#87a3b2" font-size="14">models · embeddings · ML</text><text y="105" fill="#87a3b2" font-size="14">evaluation · inference</text></g>
+    <g transform="translate(656 145)"><circle r="9" fill="#8edcff" filter="url(#smallGlow)"/><text x="20" y="5" fill="#a5dff6" font-size="12" letter-spacing="1.4">CONNECT</text><text y="49" fill="#eef8fc" font-size="21">Data platforms</text><text y="78" fill="#87a3b2" font-size="14">SQL · search · queues</text><text y="105" fill="#87a3b2" font-size="14">cloud · containers</text></g>
+    <g transform="translate(936 145)"><circle r="9" fill="#8edcff" filter="url(#smallGlow)"/><text x="20" y="5" fill="#a5dff6" font-size="12" letter-spacing="1.4">MEASURE</text><text y="49" fill="#eef8fc" font-size="21">Performance</text><text y="78" fill="#87a3b2" font-size="14">parallelism · testing</text><text y="105" fill="#87a3b2" font-size="14">observability · CI/CD</text></g>
+  </g>
+  <path d="M48 331H1152" stroke="#70c7e8" stroke-opacity=".18"/><text x="48" y="357" fill="#7d9cad" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">THE MODEL IS ONE COMPONENT. THE SYSTEM IS THE PRODUCT.</text>
+</svg>

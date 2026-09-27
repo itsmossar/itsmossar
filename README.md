@@ -26,6 +26,10 @@ My next specialization is AI engineering: designing the infrastructure around mo
 
 I do not separate software engineering from AI or data work. A model needs reliable inputs, an API, storage, monitoring, and a product experience before it becomes useful.
 
+<p align="center">
+  <img src="./assets/capability-matrix.svg" width="100%" alt="Capability matrix for software systems, AI and data science, data platforms, and performance engineering" />
+</p>
+
 **Application systems**
 
 `TypeScript` `JavaScript` `C#` `Python` `Kotlin` `SQL` `Angular` `React` `Next.js` `ASP.NET Core` `Node.js` `Express` `FastAPI` `Django`
@@ -61,6 +65,10 @@ raw data -> transform -> learn / infer -> evaluate -> serve -> observe
 ```
 
 ## [ 04 ] Systems in orbit
+
+<p align="center">
+  <img src="./assets/project-orbit.svg" width="100%" alt="Project orbit showing audio intelligence, microservices, IoT data fusion, and mobile systems" />
+</p>
 
 - **Audio Processor Pipeline** - Full-stack, concurrent client-server architecture for journalism audio; FFmpeg, faster-whisper, Qwen2.5, .NET 8, Angular 19, Supabase, NBomber, and parallel DSP.
 - **Paperless-ngx Microservices Modernization** - A Strangler Fig migration that isolates OCR and search capabilities through independent services, intelligent routing, anti-corruption layers, and an API gateway.

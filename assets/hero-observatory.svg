@@ -1,64 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title description">
-  <title id="title">Gabriel Mendoza Escobar observatory interface</title>
-  <desc id="description">A dark scientific interface with an orbital system, stars, and the Heisenberg uncertainty principle.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title description">
+  <title id="title">Gabriel Mendoza AI engineering observatory</title>
+  <desc id="description">A living observatory scene showing data, models, software systems, and an orbital AI core.</desc>
   <defs>
-    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07101c"/>
-      <stop offset="0.58" stop-color="#0b1727"/>
-      <stop offset="1" stop-color="#10152a"/>
-    </linearGradient>
-    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#75c7ef" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#75c7ef" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#88b7d0" stroke-opacity=".075" stroke-width="1"/>
-    </pattern>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b14"/><stop offset=".5" stop-color="#0a1a2c"/><stop offset="1" stop-color="#10162d"/></linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#b4edff"/><stop offset=".22" stop-color="#61c7ef"/><stop offset=".6" stop-color="#1b5278"/><stop offset="1" stop-color="#102039"/></radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#13263a" stop-opacity=".92"/><stop offset="1" stop-color="#091521" stop-opacity=".72"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#9bdff8" stroke-opacity=".06"/></pattern>
   </defs>
-  <rect width="1200" height="440" rx="18" fill="url(#space)"/>
-  <rect width="1200" height="440" rx="18" fill="url(#grid)"/>
-  <path d="M0 344C195 293 330 371 536 332S865 272 1200 335V440H0Z" fill="#07101c" fill-opacity=".34"/>
-  <g fill="#d9f3ff">
-    <circle cx="76" cy="76" r="1.1"><animate attributeName="opacity" values=".25;1;.25" dur="5.5s" repeatCount="indefinite"/></circle>
-    <circle cx="177" cy="132" r="1.5"><animate attributeName="opacity" values="1;.2;1" dur="7s" repeatCount="indefinite"/></circle>
-    <circle cx="327" cy="49" r="1" opacity=".7"/>
-    <circle cx="434" cy="105" r="1.25"><animate attributeName="opacity" values=".2;.9;.2" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="764" cy="73" r="1.2" opacity=".72"/>
-    <circle cx="1078" cy="91" r="1.6"><animate attributeName="opacity" values=".3;1;.3" dur="4.8s" repeatCount="indefinite"/></circle>
-    <circle cx="1141" cy="275" r="1.1" opacity=".8"/>
-    <circle cx="904" cy="371" r="1" opacity=".6"/>
+  <rect width="1200" height="540" rx="22" fill="url(#sky)"/>
+  <rect width="1200" height="540" rx="22" fill="url(#grid)"/>
+  <g fill="#d4f4ff">
+    <circle cx="68" cy="72" r="1.3"><animate attributeName="opacity" values=".2;1;.2" dur="4.4s" repeatCount="indefinite"/></circle><circle cx="204" cy="113" r="1" opacity=".72"/><circle cx="380" cy="64" r="1.6"><animate attributeName="opacity" values="1;.25;1" dur="6s" repeatCount="indefinite"/></circle><circle cx="529" cy="99" r="1" opacity=".6"/><circle cx="711" cy="50" r="1.2" opacity=".75"/><circle cx="1095" cy="93" r="1.5"><animate attributeName="opacity" values=".25;1;.25" dur="5s" repeatCount="indefinite"/></circle><circle cx="1139" cy="405" r="1.1" opacity=".8"/>
   </g>
-  <g transform="translate(928 215)">
-    <circle r="152" fill="url(#halo)"/>
-    <g fill="none" stroke="#76c8ee" stroke-opacity=".36">
-      <ellipse rx="168" ry="69" stroke-width="1"/>
-      <ellipse rx="98" ry="151" transform="rotate(42)" stroke-width="1"/>
-      <circle r="93" stroke-dasharray="3 8" stroke-width="1"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
-      <circle cx="166" r="4" fill="#8cd6f5" filter="url(#glow)"/>
-      <circle cx="-54" cy="-134" r="2.5" fill="#bcdfff"/>
-    </g>
-    <circle r="29" fill="#132c45" stroke="#8bd4f4" stroke-opacity=".7"/>
-    <circle r="12" fill="#8bd4f4" filter="url(#glow)"><animate attributeName="r" values="10;13;10" dur="4s" repeatCount="indefinite"/></circle>
-    <path d="M-185 14H-34" stroke="#9fdcf5" stroke-opacity=".5" stroke-width="1" stroke-dasharray="5 8">
-      <animate attributeName="stroke-dashoffset" from="0" to="-52" dur="5s" repeatCount="indefinite"/>
-    </path>
+  <g transform="translate(904 262)">
+    <circle r="212" fill="#58bde8" opacity=".06"/><circle r="166" fill="#58bde8" opacity=".05"/>
+    <g fill="none" stroke="#7ed3f2"><ellipse rx="232" ry="91" stroke-opacity=".36"/><ellipse rx="116" ry="205" transform="rotate(37)" stroke-opacity=".24"/><circle r="132" stroke-opacity=".28" stroke-dasharray="3 10"/></g>
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/><circle cx="231" r="5" fill="#9de5ff" filter="url(#glow)"/><circle cx="-84" cy="-147" r="3" fill="#bdeeff"/></g>
+    <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/><circle cx="-117" cy="-20" r="3.5" fill="#87cfee"/></g>
+    <circle r="79" fill="url(#core)" stroke="#b7edff" stroke-opacity=".54"/><path d="M-77 12C-28-3 25-2 77 14M-60-31C-16-45 23-43 60-25" fill="none" stroke="#d7f7ff" stroke-opacity=".32"/>
+    <circle r="17" fill="#d2f6ff" filter="url(#glow)"><animate attributeName="r" values="14;20;14" dur="3.2s" repeatCount="indefinite"/></circle>
   </g>
-  <g fill="#c7d3dc" font-family="Inter, Geist, Arial, sans-serif">
-    <text x="72" y="82" font-size="12" letter-spacing="3.2" fill="#87c8e5">ENGINEERING OBSERVATORY / AI-01</text>
-    <text x="72" y="139" font-size="18" letter-spacing="1.8" fill="#90a6b7">BUILDING INTELLIGENT SYSTEMS</text>
-    <text x="72" y="208" font-size="46" font-weight="600" letter-spacing="-1.2" fill="#f2f7fa">Gabriel Mendoza Escobar</text>
-    <text x="75" y="249" font-size="17" letter-spacing=".4">Full-Stack Engineer / AI Engineer / Data Scientist</text>
-    <text x="75" y="276" font-size="17" letter-spacing=".4">from raw signal to resilient, intelligent products.</text>
-    <text x="74" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#8ed1ee">Δx · Δp ≥ ħ / 2</text>
-    <text x="74" y="382" font-size="12" letter-spacing="2.1" fill="#6f91a5">MEASUREMENT CHANGES THE MODEL</text>
+  <g font-family="Inter, Geist, Arial, sans-serif">
+    <text x="72" y="78" fill="#88d3f2" font-size="12" letter-spacing="3">GABRIEL MENDOZA ESCOBAR / SIGNAL LAB</text>
+    <text x="72" y="147" fill="#f0f8fc" font-size="45" font-weight="600">Engineering intelligence</text>
+    <text x="72" y="194" fill="#f0f8fc" font-size="45" font-weight="600">from data to orbit.</text>
+    <text x="74" y="238" fill="#aabcc7" font-size="18">Full-Stack Engineer · AI Engineer · Data Scientist</text>
+    <text x="74" y="269" fill="#7e9aaa" font-size="15">systems, models, signal processing, and products that hold under load</text>
   </g>
-  <path d="M73 304H516" stroke="#7ac8eb" stroke-opacity=".36"/>
-  <circle cx="515" cy="304" r="3" fill="#91d6f2"><animate attributeName="opacity" values=".25;1;.25" dur="3.7s" repeatCount="indefinite"/></circle>
+  <g transform="translate(72 319)" font-family="Inter, Geist, Arial, sans-serif">
+    <rect width="468" height="136" rx="13" fill="url(#panel)" stroke="#82d4f1" stroke-opacity=".23"/>
+    <text x="25" y="31" fill="#86cdea" font-size="11" letter-spacing="2.1">CURRENT MISSION</text>
+    <text x="25" y="65" fill="#e6f2f7" font-size="20">Build software that makes</text>
+    <text x="25" y="91" fill="#e6f2f7" font-size="20">intelligent decisions reliable.</text>
+    <path d="M25 111H428" stroke="#7ecfeb" stroke-opacity=".3"/><circle cx="426" cy="111" r="4" fill="#91dcf7"><animate attributeName="opacity" values=".2;1;.2" dur="2.7s" repeatCount="indefinite"/></circle>
+  </g>
+  <g transform="translate(72 487)" fill="#8ba5b5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+    <text>DATA -&gt; REPRESENTATION -&gt; INFERENCE -&gt; IMPACT</text>
+  </g>
+  <path d="M0 501C212 458 333 543 544 502S907 458 1200 514V540H0Z" fill="#030810" fill-opacity=".53"/>
 </svg>
