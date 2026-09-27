@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Gabriel Mendoza engineering console</title>
+  <desc id="description">A dark operating console visualizing Full-Stack Engineering, AI Engineering, and Data Science as one system.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07121f"/><stop offset="1" stop-color="#0d1e31"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#52bce8" stop-opacity="0"/><stop offset=".5" stop-color="#8be0ff"/><stop offset="1" stop-color="#52bce8" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="codeReveal"><rect x="61" y="89" width="0" height="196"><animate attributeName="width" values="0;590;590" dur="3.8s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#surface)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#7acbea" stroke-opacity=".25"/>
+  <path d="M0 48H1200" stroke="#7acbea" stroke-opacity=".22"/>
+  <g fill="#9cdcf6"><circle cx="30" cy="24" r="5"/><circle cx="49" cy="24" r="5" fill-opacity=".55"/><circle cx="68" cy="24" r="5" fill-opacity=".25"/></g>
+  <text x="95" y="29" fill="#9fb3c2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.8">GABRIEL@OBSERVATORY: ~/ENGINEERING-MODEL</text>
+  <g clip-path="url(#codeReveal)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
+    <text x="62" y="106" fill="#6f95aa">$ resolve --identity</text>
+    <text x="62" y="138" fill="#d7e8f1">role       = <tspan fill="#8edcff">FULL-STACK ENGINEER</tspan></text>
+    <text x="62" y="166" fill="#d7e8f1">discipline = <tspan fill="#8edcff">AI ENGINEERING + DATA SCIENCE</tspan></text>
+    <text x="62" y="194" fill="#d7e8f1">method     = <tspan fill="#8edcff">ARCHITECTURE + PERFORMANCE + DELIVERY</tspan></text>
+    <text x="62" y="238" fill="#6f95aa">$ trace --system-vector</text>
+    <text x="62" y="270" fill="#c3d2dc">signal -&gt; data -&gt; model -&gt; product -&gt; evidence</text>
+  </g>
+  <rect x="61" y="281" width="9" height="18" fill="#8edcff"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+  <path d="M650 78V301" stroke="#84ccea" stroke-opacity=".22"/>
+  <text x="690" y="105" fill="#7da5b9" font-family="Inter, Geist, Arial, sans-serif" font-size="12" letter-spacing="2.2">ENGINEERING STATE VECTOR</text>
+  <g transform="translate(925 205)" fill="none">
+    <circle r="92" stroke="#75cdec" stroke-opacity=".25" stroke-width="1"/>
+    <ellipse rx="142" ry="51" stroke="#75cdec" stroke-opacity=".36" stroke-width="1"/>
+    <ellipse rx="65" ry="125" transform="rotate(36)" stroke="#75cdec" stroke-opacity=".28" stroke-width="1"/>
+    <path d="M-170 0H170" stroke="url(#beam)" stroke-width="1.2"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+      <circle cx="141" r="5" fill="#8edcff" filter="url(#glow)"/>
+      <circle cx="-42" cy="-112" r="3" fill="#bdeeff"/>
+    </g>
+    <circle r="22" fill="#0f2a42" stroke="#8edcff" stroke-opacity=".75"/>
+    <circle r="8" fill="#8edcff" filter="url(#glow)"><animate attributeName="r" values="6;10;6" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#b9ccd7" font-family="Inter, Geist, Arial, sans-serif" font-size="13">
+    <text x="694" y="291">systems | intelligence | data</text>
+    <text x="694" y="317" fill="#7596a8">one engineering practice, multiple scales</text>
+  </g>
+  <path d="M690 131H1110" stroke="#8edcff" stroke-opacity=".22" stroke-dasharray="4 8"><animate attributeName="stroke-dashoffset" from="0" to="-48" dur="5s" repeatCount="indefinite"/></path>
+</svg>

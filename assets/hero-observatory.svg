@@ -51,13 +51,13 @@
     </path>
   </g>
   <g fill="#c7d3dc" font-family="Inter, Geist, Arial, sans-serif">
-    <text x="72" y="82" font-size="12" letter-spacing="3.2" fill="#87c8e5">OBSERVATORY / 04.113</text>
-    <text x="72" y="139" font-size="18" letter-spacing="1.8" fill="#90a6b7">OBSERVING THE UNKNOWN</text>
+    <text x="72" y="82" font-size="12" letter-spacing="3.2" fill="#87c8e5">ENGINEERING OBSERVATORY / AI-01</text>
+    <text x="72" y="139" font-size="18" letter-spacing="1.8" fill="#90a6b7">BUILDING INTELLIGENT SYSTEMS</text>
     <text x="72" y="208" font-size="46" font-weight="600" letter-spacing="-1.2" fill="#f2f7fa">Gabriel Mendoza Escobar</text>
-    <text x="75" y="249" font-size="17" letter-spacing=".4">Software engineer building systems between</text>
-    <text x="75" y="276" font-size="17" letter-spacing=".4">computation, intelligence, and curiosity.</text>
+    <text x="75" y="249" font-size="17" letter-spacing=".4">Full-Stack Engineer / AI Engineer / Data Scientist</text>
+    <text x="75" y="276" font-size="17" letter-spacing=".4">from raw signal to resilient, intelligent products.</text>
     <text x="74" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#8ed1ee">Δx · Δp ≥ ħ / 2</text>
-    <text x="74" y="382" font-size="12" letter-spacing="2.1" fill="#6f91a5">MEASUREMENT CHANGES THE FIELD</text>
+    <text x="74" y="382" font-size="12" letter-spacing="2.1" fill="#6f91a5">MEASUREMENT CHANGES THE MODEL</text>
   </g>
   <path d="M73 304H516" stroke="#7ac8eb" stroke-opacity=".36"/>
   <circle cx="515" cy="304" r="3" fill="#91d6f2"><animate attributeName="opacity" values=".25;1;.25" dur="3.7s" repeatCount="indefinite"/></circle>

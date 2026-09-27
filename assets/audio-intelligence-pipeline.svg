@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="326" viewBox="0 0 1200 326" role="img" aria-labelledby="title description">
+  <title id="title">Audio intelligence pipeline</title>
+  <desc id="description">An animated engineering data pipeline from audio signal processing with FFmpeg, transcription with faster-whisper, Qwen2.5 inference, and data storage.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081522"/><stop offset="1" stop-color="#102036"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <path id="signalPath" d="M245 177H333M522 177H610M799 177H887"/>
+  </defs>
+  <rect width="1200" height="326" rx="17" fill="url(#background)"/>
+  <rect x="1" y="1" width="1198" height="324" rx="16" fill="none" stroke="#79c9e8" stroke-opacity=".21"/>
+  <text x="45" y="46" fill="#a4def5" font-family="Inter, Geist, Arial, sans-serif" font-size="14" letter-spacing="2.8">AUDIO INTELLIGENCE PIPELINE</text>
+  <text x="45" y="72" fill="#7796a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">CLIENT SIGNAL / SERVER PARALLELISM / MODEL INFERENCE / DATA PLANE</text>
+  <g fill="none" stroke="#69bedf" stroke-opacity=".37" stroke-width="1.5" stroke-dasharray="5 8">
+    <use href="#signalPath"><animate attributeName="stroke-dashoffset" from="0" to="-52" dur="3.8s" repeatCount="indefinite"/></use>
+  </g>
+  <g fill="#0d2438" stroke="#6fc8eb" stroke-opacity=".43">
+    <rect x="45" y="127" width="200" height="101" rx="11"/>
+    <rect x="333" y="127" width="189" height="101" rx="11"/>
+    <rect x="610" y="127" width="189" height="101" rx="11"/>
+    <rect x="887" y="127" width="268" height="101" rx="11"/>
+  </g>
+  <g font-family="Inter, Geist, Arial, sans-serif">
+    <text x="66" y="158" fill="#9ddbf5" font-size="14" letter-spacing="1.4">01 / SIGNAL</text>
+    <text x="66" y="187" fill="#e1edf3" font-size="18">Audio ingestion</text>
+    <text x="66" y="211" fill="#83a2b4" font-size="13">validation + upload</text>
+    <text x="354" y="158" fill="#9ddbf5" font-size="14" letter-spacing="1.4">02 / TRANSFORM</text>
+    <text x="354" y="187" fill="#e1edf3" font-size="18">FFmpeg</text>
+    <text x="354" y="211" fill="#83a2b4" font-size="13">compress + normalize</text>
+    <text x="631" y="158" fill="#9ddbf5" font-size="14" letter-spacing="1.4">03 / TRANSCRIBE</text>
+    <text x="631" y="187" fill="#e1edf3" font-size="18">faster-whisper</text>
+    <text x="631" y="211" fill="#83a2b4" font-size="13">speech to text</text>
+    <text x="908" y="158" fill="#9ddbf5" font-size="14" letter-spacing="1.4">04 / INFER + STORE</text>
+    <text x="908" y="187" fill="#e1edf3" font-size="18">Qwen2.5 + Supabase</text>
+    <text x="908" y="211" fill="#83a2b4" font-size="13">summaries + persistence</text>
+  </g>
+  <g fill="#8edcff" filter="url(#glow)">
+    <circle r="4"><animateMotion dur="4.5s" repeatCount="indefinite" path="M245 177H333M522 177H610M799 177H887"/></circle>
+    <circle r="2.8"><animateMotion begin="-2.25s" dur="4.5s" repeatCount="indefinite" path="M245 177H333M522 177H610M799 177H887"/></circle>
+  </g>
+  <g fill="#7c9eaf" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+    <text x="45" y="280">CLEAN ARCHITECTURE</text><text x="340" y="280">TASK PARALLEL LIBRARY</text><text x="650" y="280">ASYNC WORKFLOW</text><text x="925" y="280">OBSERVABLE OUTPUT</text>
+  </g>
+</svg>

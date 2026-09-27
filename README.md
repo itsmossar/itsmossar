@@ -1,81 +1,99 @@
 <p align="center">
-  <img src="./assets/hero-observatory.svg" width="100%" alt="Gabriel Mendoza Escobar — a scientific observatory interface for software, computation, and curiosity" />
+  <img src="./assets/hero-observatory.svg" width="100%" alt="Gabriel Mendoza Escobar: Full-Stack Engineer, AI Engineer, and Data Scientist" />
 </p>
 
-> Observation turns possibility into evidence. I build in that narrow interval: where a question becomes a model, a model becomes a system, and the unknown becomes useful.
+<p align="center">
+  <img src="./assets/engineer-console.svg" width="100%" alt="An animated engineering console showing Gabriel's full-stack, AI, and data systems focus" />
+</p>
 
-<p align="center"><sub>FULL-STACK ENGINEERING &nbsp;·&nbsp; SYSTEM DESIGN &nbsp;·&nbsp; INTELLIGENT COMPUTATION</sub></p>
+<p align="center"><sub>FULL-STACK ENGINEER &nbsp;|&nbsp; AI ENGINEER &nbsp;|&nbsp; DATA SCIENTIST &nbsp;|&nbsp; SYSTEMS THINKER</sub></p>
 
-## 01 / Observation
+> I engineer the path from raw signal to useful decision: interfaces that people trust, backends that scale, and intelligent systems that can explain what they did with the data.
 
-I am **Gabriel Mendoza Escobar**, a full-stack developer who treats software as an instrument for making complex things legible. My work spans product interfaces, backend architecture, distributed services, and the engineering discipline that keeps systems reliable once they leave the lab.
+## [ 01 ] Identity / the observer effect
 
-I am particularly drawn to the places where computation meets curiosity: machine learning, information, performance, and the physical ideas that give those fields their language.
+I am **Gabriel Mendoza Escobar** - a Full-Stack Engineer working across frontend, backend, data, cloud, architecture, quality, and technical leadership. I also work as an **AI Engineer and Data Scientist**, applying machine learning, deep learning, data processing, and model-driven product thinking to real software systems.
+
+My next specialization is AI engineering: designing the infrastructure around models as carefully as the models themselves - data quality, evaluation, inference, observability, performance, and the human workflow on the other side of the output.
+
+`observation -> model -> system -> measurable impact`
 
 <p align="center">
   <img src="./assets/orbital-divider.svg" width="100%" alt="A subtle orbital signal divider" />
 </p>
 
-## 02 / Current state
+## [ 02 ] Engineering matrix
 
-**Position** — Full-stack developer and technical lead, with experience guiding Agile delivery and mentoring engineering peers.
+I do not separate software engineering from AI or data work. A model needs reliable inputs, an API, storage, monitoring, and a product experience before it becomes useful.
 
-**Foundation** — Commercial Software Engineering, Jala University (2023-2026); Computer Systems, American Institute (2021-2022).
+**Application systems**
 
-**In focus** — Clean, scalable services; concurrent and parallel processing; practical machine learning; and the foundations of quantum computation.
+`TypeScript` `JavaScript` `C#` `Python` `Kotlin` `SQL` `Angular` `React` `Next.js` `ASP.NET Core` `Node.js` `Express` `FastAPI` `Django`
 
-## 03 / The lab
+**AI / data science**
 
-I choose tools for the system in front of me, then keep the architecture understandable enough for the next engineer to extend.
+`PyTorch` `TensorFlow` `scikit-learn` `NumPy` `Pandas` `Jupyter` `Hugging Face` `Transformers.js` `faster-whisper` `Qwen2.5`
 
-**Build with**
+**Data, architecture, and delivery**
 
-`TypeScript` `JavaScript` `C#` `Python` `Kotlin` `SQL`
+`PostgreSQL` `SQL Server` `MongoDB` `Redis` `Elasticsearch` `Supabase` `Docker` `Kubernetes` `Azure` `GitHub Actions` `GitLab CI/CD` `Linux`
 
-**Shape systems with**
+**Performance and systems work**
 
-`Angular` `React` `Next.js` `ASP.NET Core` `Node.js` `Express` `FastAPI` `Django`
-
-**Store, ship, and observe with**
-
-`PostgreSQL` `SQL Server` `MongoDB` `Redis` `Docker` `Kubernetes` `Azure` `GitHub Actions` `GitLab CI/CD` `Linux`
+`FFmpeg` `NAudio` `NBomber` `Task Parallel Library` `RxJS` `Web Workers` `OpenAPI` `Prometheus` `Grafana`
 
 <p align="center">
-  <img src="./assets/neural-constellation.svg" width="100%" alt="A minimal constellation diagram connecting inputs, representation, and inference" />
+  <img src="./assets/neural-constellation.svg" width="100%" alt="A data-to-model-to-inference constellation" />
 </p>
 
-## 04 / Computation
+## [ 03 ] AI / data flight path
 
-I have worked with **Python, PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, and Hugging Face tooling** for reproducible machine-learning and deep-learning applications. I am interested in the less visible part of intelligence too: representations, evaluation, data pipelines, and the trade-offs behind an inference result.
+My AI work is grounded in the full lifecycle: acquire the signal, clean and represent the data, run the model, evaluate the result, and ship a system that remains observable under real load.
 
-`inputs → weighted representation → activation → decision`
+<p align="center">
+  <img src="./assets/audio-intelligence-pipeline.svg" width="100%" alt="Animated audio intelligence pipeline from FFmpeg preprocessing through faster-whisper transcription, Qwen2.5 summarization, and storage" />
+</p>
 
-## 05 / Quantum state
+The **Audio Processor Pipeline** is the clearest expression of that approach: a .NET 8 API and Angular 19 client coordinate concurrent compression with FFmpeg, speech-to-text with faster-whisper, AI summarization with Qwen2.5, and cloud storage through Supabase. The system uses parallel processing, client-side audio validation, reactive uploads, load testing, and Clean Architecture rather than treating the model as an isolated feature.
 
-`|ψ⟩ = α|0⟩ + β|1⟩`
+```text
+raw data -> transform -> learn / infer -> evaluate -> serve -> observe
+```
 
-Quantum computing is an active area of study for me: not as an aesthetic, but as a different vocabulary for probability, information, and measurement. The most interesting systems are rarely binary until we insist on observing them.
+## [ 04 ] Systems in orbit
 
-## 06 / Orbit
+- **Audio Processor Pipeline** - Full-stack, concurrent client-server architecture for journalism audio; FFmpeg, faster-whisper, Qwen2.5, .NET 8, Angular 19, Supabase, NBomber, and parallel DSP.
+- **Paperless-ngx Microservices Modernization** - A Strangler Fig migration that isolates OCR and search capabilities through independent services, intelligent routing, anti-corruption layers, and an API gateway.
+- **PixPro** - AI-assisted image processing with real-time status updates, secure media delivery, distributed service concerns, and scalable workflows.
+- **IoT DataFusion Suite** - Public work connecting a Django API, Sigfox device data, visualization, and an ESP32 simulation: [explore the repository](https://github.com/itsmossar/IoT-DataFusionSuite-W6-GM).
+- **My Sleeping Buddy** - Kotlin and Jetpack Compose mobile development with Room, Coroutines, StateFlow, Hilt, Hexagonal Architecture, and CI quality gates.
 
-A few systems from my recent work:
+## [ 05 ] How I build
 
-- **Paperless-ngx Microservices Modernization** — Led an incremental Strangler Fig modernization that separates OCR and search from a monolith through independent services, routing, anti-corruption layers, and an API gateway.
-- **Audio Processor Pipeline** — Designed a .NET 8 and Angular application for concurrent audio compression, transcription, AI summarization, storage, and performance measurement.
-- **PixPro** — Contributed to an AI-assisted image-processing platform with real-time updates, secure media storage, and distributed-service concerns.
-- **My Sleeping Buddy** — Built an Android sleep-tracking application with Kotlin, Jetpack Compose, Room, Clean/Hexagonal Architecture, and CI quality gates.
+`architecture before accidental complexity`  
+`measurement before confidence`  
+`performance as a product feature`  
+`data contracts before model claims`  
+`automation before repetition`
 
-## 07 / Signal
+I have led technical teams and Scrum delivery, worked with Clean Architecture, microservices, API-first design, automated testing, CI/CD, and cloud deployment. I care about the boundary conditions: latency, failure modes, observability, reproducibility, and whether the next person can safely change the system.
+
+## [ 06 ] Research orbit
+
+Physics and astronomy shape the questions I bring to engineering: how does information move, what does a measurement hide, and where does signal end and noise begin?
+
+`Delta x * Delta p >= h / 2`  
+`|psi> = alpha|0> + beta|1>`
+
+Quantum computing, information theory, and machine learning are connected here by a single interest: systems whose behavior is richer than the first simple description of them.
+
+## [ 07 ] Live signal
 
 <p align="center">
   <img src="./assets/contributions.svg" width="100%" alt="GitHub contribution signal panel" />
 </p>
 
-This repository includes a scheduled GitHub Action that replaces the initial signal panel with your **public, GitHub-sourced contribution calendar** after publishing. It lives in the repository, uses no external statistic service, and only displays data GitHub returns for the profile owner.
-
-## 08 / Beyond the code
-
-Astronomy reminds me that a coordinate is not an explanation. Physics keeps me attentive to assumptions, scale, and signal-to-noise. I bring that same habit to software: inspect closely, model carefully, and leave room for what the first measurement did not reveal.
+This panel is generated inside this repository by GitHub Actions from the profile owner's public contribution calendar. It avoids third-party statistic widgets and stays honest about the data it displays.
 
 <p align="center">
   <img src="./assets/orbital-divider.svg" width="100%" alt="A subtle orbital signal divider" />
@@ -83,8 +101,8 @@ Astronomy reminds me that a coordinate is not an explanation. Physics keeps me a
 
 <p align="center">
   <a href="mailto:gabriel.mendoza@jala.university">gabriel.mendoza@jala.university</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <sub>OPEN TO THOUGHTFUL COLLABORATION</sub>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/itsmossar">github.com/itsmossar</a>
 </p>
 
-<p align="center"><sub>END OF OBSERVATION // THE NEXT QUESTION IS ALWAYS MORE INTERESTING</sub></p>
+<p align="center"><sub>END OF TRANSMISSION // KEEP ASKING BETTER QUESTIONS</sub></p>

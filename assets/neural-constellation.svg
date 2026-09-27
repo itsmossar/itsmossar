@@ -17,8 +17,8 @@
     <circle cx="682" cy="67" r="4"/><circle cx="682" cy="128" r="4"/><circle cx="952" cy="98" r="5"/>
   </g>
   <g fill="#a8bac7" font-family="Inter, Geist, Arial, sans-serif" font-size="11" letter-spacing="2.1">
-    <text x="86" y="184">INPUT SIGNALS</text><text x="337" y="184">REPRESENTATION</text><text x="620" y="184">ACTIVATION</text><text x="914" y="184">INFERENCE</text>
+    <text x="94" y="184">DATA SIGNAL</text><text x="337" y="184">FEATURE SPACE</text><text x="633" y="184">MODEL</text><text x="914" y="184">INFERENCE</text>
   </g>
-  <text x="56" y="29" fill="#5f8ea7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">CONSTELLATION / LEARNING FIELD</text>
+  <text x="56" y="29" fill="#5f8ea7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">CONSTELLATION / DATA TO DECISION FIELD</text>
   <circle cx="952" cy="98" r="12" fill="none" stroke="#8bd6f5" stroke-opacity=".45"><animate attributeName="r" values="8;17;8" dur="3.5s" repeatCount="indefinite"/></circle>
 </svg>
