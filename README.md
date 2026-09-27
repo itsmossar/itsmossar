@@ -93,7 +93,7 @@ Quantum computing, information theory, and machine learning are connected here b
   <img src="./assets/contributions.svg" width="100%" alt="GitHub contribution signal panel" />
 </p>
 
-This panel is generated inside this repository by GitHub Actions from the profile owner's public contribution calendar. It avoids third-party statistic widgets and stays honest about the data it displays.
+GitHub's native profile calendar remains the source of truth for contribution activity. This visual stays intentionally self-contained: no third-party statistic widget, no background bot commits, and no invented metrics.
 
 <p align="center">
   <img src="./assets/orbital-divider.svg" width="100%" alt="A subtle orbital signal divider" />
