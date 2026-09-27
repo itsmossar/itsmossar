@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="82" viewBox="0 0 1200 82" role="img" aria-labelledby="title description">
+  <title id="title">Orbital signal divider</title>
+  <desc id="description">A subtle orbital path and moving signal points.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#71c5e9" stop-opacity="0"/><stop offset=".25" stop-color="#71c5e9" stop-opacity=".58"/><stop offset=".75" stop-color="#71c5e9" stop-opacity=".58"/><stop offset="1" stop-color="#71c5e9" stop-opacity="0"/></linearGradient>
+  </defs>
+  <path d="M0 41H430C489 41 496 13 555 13H645C704 13 711 69 770 69H1200" fill="none" stroke="url(#line)" stroke-width="1.2"/>
+  <path d="M482 41c19-18 37-23 55-23m126 0c18 0 36 5 55 23" fill="none" stroke="#a2ddf7" stroke-opacity=".42" stroke-width="1" stroke-dasharray="3 6">
+    <animate attributeName="stroke-dashoffset" from="0" to="-45" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#8bd6f5">
+    <circle cx="430" cy="41" r="2"/><circle cx="555" cy="13" r="3"><animate attributeName="opacity" values=".35;1;.35" dur="4s" repeatCount="indefinite"/></circle><circle cx="645" cy="13" r="2"/><circle cx="770" cy="69" r="3"><animate attributeName="opacity" values="1;.35;1" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="559" y="48" fill="#93b8ca" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2">SIGNAL</text>
+</svg>

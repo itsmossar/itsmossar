@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="195" viewBox="0 0 1100 195" role="img" aria-labelledby="title description">
+  <title id="title">Neural constellation</title>
+  <desc id="description">A minimal blue neural network diagram, presented like a constellation.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#091522"/><stop offset="1" stop-color="#0d1b2d"/></linearGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1100" height="195" rx="14" fill="url(#panel)"/>
+  <g fill="none" stroke="#67bde5" stroke-opacity=".32" stroke-width="1.2">
+    <path d="M144 50L402 42M144 50L402 98M144 50L402 153M144 98L402 42M144 98L402 98M144 98L402 153M144 146L402 42M144 146L402 98M144 146L402 153M402 42L682 67M402 42L682 128M402 98L682 67M402 98L682 128M402 153L682 67M402 153L682 128M682 67L952 98M682 128L952 98" stroke-dasharray="4 7">
+      <animate attributeName="stroke-dashoffset" from="0" to="-66" dur="8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#8bd6f5" filter="url(#softGlow)">
+    <circle cx="144" cy="50" r="4"/><circle cx="144" cy="98" r="4"/><circle cx="144" cy="146" r="4"/>
+    <circle cx="402" cy="42" r="4"/><circle cx="402" cy="98" r="4"/><circle cx="402" cy="153" r="4"/>
+    <circle cx="682" cy="67" r="4"/><circle cx="682" cy="128" r="4"/><circle cx="952" cy="98" r="5"/>
+  </g>
+  <g fill="#a8bac7" font-family="Inter, Geist, Arial, sans-serif" font-size="11" letter-spacing="2.1">
+    <text x="86" y="184">INPUT SIGNALS</text><text x="337" y="184">REPRESENTATION</text><text x="620" y="184">ACTIVATION</text><text x="914" y="184">INFERENCE</text>
+  </g>
+  <text x="56" y="29" fill="#5f8ea7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">CONSTELLATION / LEARNING FIELD</text>
+  <circle cx="952" cy="98" r="12" fill="none" stroke="#8bd6f5" stroke-opacity=".45"><animate attributeName="r" values="8;17;8" dur="3.5s" repeatCount="indefinite"/></circle>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="310" viewBox="0 0 1100 310" role="img" aria-labelledby="title description">
+  <title id="title">Contribution signal initializing</title>
+  <desc id="description">A restrained placeholder for the public GitHub contribution calendar. It is replaced by the repository workflow after publishing.</desc>
+  <defs>
+    <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091522"/><stop offset="1" stop-color="#0d1b2d"/></linearGradient>
+    <pattern id="field" width="17" height="17" patternUnits="userSpaceOnUse"><rect width="12" height="12" rx="2" fill="#142435"/></pattern>
+  </defs>
+  <rect width="1100" height="310" rx="16" fill="url(#backdrop)"/>
+  <text x="48" y="57" fill="#9ad8f2" font-family="Inter, Geist, Arial, sans-serif" font-size="14" letter-spacing="2.5">CONTRIBUTION FIELD</text>
+  <text x="48" y="88" fill="#718c9f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">PUBLIC GITHUB TELEMETRY / INITIALIZING</text>
+  <rect x="49" y="123" width="1002" height="119" fill="url(#field)" opacity=".72"/>
+  <path d="M49 252H1051" stroke="#6dbadd" stroke-opacity=".27"/>
+  <circle cx="49" cy="252" r="3" fill="#89d1f1"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" repeatCount="indefinite"/></circle>
+  <text x="49" y="279" fill="#7f9caf" font-family="Inter, Geist, Arial, sans-serif" font-size="12">The scheduled repository workflow will populate this panel from the profile owner’s public contribution calendar.</text>
+</svg>
